@@ -6,10 +6,20 @@ def index(request):
     tasks = Task.objects.all()
     return render(request,'main/index.html', {'title':'Главная страница сайта', 'tasks':tasks})
 
-def news(request):
-    country = Country.objects.all()
-    return render(request,'main/news.html', {'country':country} )
+def n1(request):
+    return render(request,'main/n1.html' )
 
-def about(request):
-    tasks = Task.objects.all()
-    return render(request,'main/about.html', {'tasks':tasks})
+def n2(request):
+    return render(request,'main/n2.html')
+
+def n3(request):
+    return render(request,'main/n3.html')
+
+def n4(request):
+    return render(request,'main/n4.html')
+
+def n5(request):
+    return render(request,'main/n5.html')
+
+def n6(request):
+    return render(request,'main/n6.html')
