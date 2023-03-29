@@ -23,3 +23,45 @@ def n5(request):
 
 def n6(request):
     return render(request,'main/n6.html')
+
+def n7(request):
+    return render(request,'main/n7.html')
+
+def n8(request):
+    return render(request,'main/n8.html')
+
+def n9(request):
+    return render(request,'main/n9.html')
+
+def n10(request):
+    return render(request,'main/n10.html')
+
+def n11(request):
+    return render(request,'main/n11.html')
+
+def n12(request):
+    return render(request,'main/n12.html')
+
+def n13(request):
+    return render(request,'main/n13.html')
+
+def n14(request):
+    return render(request,'main/n14.html')
+
+def n15(request):
+    return render(request,'main/n15.html')
+
+def n16(request):
+    return render(request,'main/n16.html')
+
+def n17(request):
+    return render(request,'main/n17.html')
+
+def n18(request):
+    return render(request,'main/n18.html')
+
+def n19(request):
+    return render(request,'main/n19.html')
+
+def n20(request):
+    return render(request,'main/n20.html')
